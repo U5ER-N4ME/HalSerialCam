@@ -1,0 +1,12 @@
+# neglect build dir and file
+/Debug/
+/Release/
+
+# neglect ide config
+## vscode
+/.vscode/
+## CubeIDE
+/.settings/
+.cproject
+.mxproject
+.project
