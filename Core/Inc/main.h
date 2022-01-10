@@ -32,6 +32,7 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <string.h>
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -59,8 +60,12 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define B1_Pin GPIO_PIN_13
 #define B1_GPIO_Port GPIOC
+#define CAMPWR_Pin GPIO_PIN_1
+#define CAMPWR_GPIO_Port GPIOB
 #define LD3_Pin GPIO_PIN_14
 #define LD3_GPIO_Port GPIOB
+#define CAMRST_Pin GPIO_PIN_8
+#define CAMRST_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 #define LD1_Pin GPIO_PIN_7
 #define LD1_GPIO_Port GPIOC

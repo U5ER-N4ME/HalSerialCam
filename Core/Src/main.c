@@ -27,6 +27,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "ov5640.h"
+
 #include "test.h"
 /* USER CODE END Includes */
 
@@ -95,6 +97,8 @@ int main(void)
   MX_SPI2_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
+  // camera connection test
+  Test_OV5640();
 
   /* USER CODE END 2 */
 
